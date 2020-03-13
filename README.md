@@ -58,7 +58,7 @@ flask에서 8080포트로 서버를 열었다면, 인바운드 규칙에서도 �
 지금은 정보를 수동으로 다 입력하고 있지만, selenium을 통해 학교 웹 사이트의 정보를 자동으로 파싱하여 정보를 얻어오도록 수정할 예정이다.
 
 ### code
-https://github.com/chanwoo99/dgist_chatbot
+[github](https://github.com/chanwoo99/dgist_chatbot)
 | 파일 | 역할 |
 | ---- | ---- |
 | data.py | 학교 정보를 작성한 데이터 |
