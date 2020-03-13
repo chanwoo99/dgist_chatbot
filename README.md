@@ -61,8 +61,8 @@ flask에서 8080포트로 서버를 열었다면, 인바운드 규칙에서도 �
 
 ### code
 [github](https://github.com/chanwoo99/dgist_chatbot)
-| 파일 | 역할 |
-| ---- | ---- |
-| data.py | 학교 정보를 작성한 데이터 |
-| main.py | 서버 실행 파일 |
-| timemodule.py | 일정 정보에서 시간을 다룰때 사용할 모듈 |
+|파일|역할|
+|----|----|
+|data.py|학교 정보를 작성한 데이터|
+|main.py|서버 실행 파일|
+|timemodule.py|일정 정보에서 시간을 다룰때 사용할 모듈|
