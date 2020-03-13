@@ -51,6 +51,7 @@ flask에서 8080포트로 서버를 열었다면, 인바운드 규칙에서도 �
 
 그래서 지금까지 만든 구조는 알고자 하는 일정을 발화를 통해 받아와 api서버에 보내면 api 서버에서 일정의 날짜와 d_day를 다시 전송하는 것이다.
 ![1](https://github.com/chanwoo99/board/blob/master/_posts/2020-03-12-1/4.JPG?raw=true)
+
 위와 같은 식으로 구성하였다.
 
 ### 맺음말
