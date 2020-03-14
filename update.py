@@ -257,3 +257,8 @@ def bus_update():
 
     with open('json/data_2_3_location.json', 'w', encoding='utf-8') as make_file:
         json.dump(encode_json_location(data_2_3_location), make_file, indent="\t")
+
+#자동 업데이트 하루에 한번씩
+while True:
+    bus_update()
+    time.sleep(86400)
