@@ -42,11 +42,20 @@ def holiday():
     return jsonify(datasend)
 
 #셔틀버스 안내
+
+#출근버스
 @app.route('/bus_1_1',methods=['POST'])
 def bus_1_1():
     with open('json/data_1_go.json', 'r') as f:
         datasend = json.load(f)
         return jsonify(datasend)
+
+@app.route('/bus_1_1_location',methods=['POST'])
+def bus_1_1():
+    with open('json/data_1_go_location.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
 
 
 
