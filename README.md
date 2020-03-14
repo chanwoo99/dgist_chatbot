@@ -6,7 +6,7 @@
 
 ### api 서버 준비하기
 동적인 응답을 위해서는 api 서버가 필요하다고 생각했다. amazone ec2에서 제한적으로 무료 서버를 사용할 수 있어서 아마존 ec2를 이용해 우분투 서버를 준비했다.
-먼저 아마존 aws 콘솔에 접속한다.
+먼저 아마존 aws 콘솔에 접속합니다.
 [amazone aws](https://ap-northeast-2.console.aws.amazon.com/console/home?region=ap-northeast-2)
 
 ![1](https://github.com/chanwoo99/board/blob/master/_posts/2020-03-12-1/1.JPG?raw=true)
