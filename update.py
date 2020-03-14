@@ -261,4 +261,4 @@ def bus_update():
 #자동 업데이트 하루에 한번씩
 while True:
     bus_update()
-    time.sleep(86400)
+    time.sleep(60)
