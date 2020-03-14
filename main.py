@@ -51,7 +51,7 @@ def bus_1_1():
         return jsonify(datasend)
 
 @app.route('/bus_1_1_location',methods=['POST'])
-def bus_1_1():
+def bus_1_1_location():
     with open('json/data_1_go_location.json', 'r') as f:
         datasend = json.load(f)
         return jsonify(datasend)
