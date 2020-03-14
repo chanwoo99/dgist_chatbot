@@ -223,7 +223,7 @@ def encode_json_location(data):
 #json 파일로 저장
 #통근버스
 with open('json/data_1_go.json', 'w', encoding='utf-8') as make_file:
-    json.dump(encode_json(data_1_go,"통근버스"), make_file, indent="\t")
+    json.dump(encode_json(data_1_go,"출근버스"), make_file, indent="\t")
 
 with open('json/data_1_go_location.json', 'w', encoding='utf-8') as make_file:
     json.dump(encode_json_location(data_1_go_location), make_file, indent="\t")
