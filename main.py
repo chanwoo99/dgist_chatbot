@@ -44,7 +44,7 @@ def holiday():
 #셔틀버스 안내
 @app.route('/bus_1_1',methods=['POST'])
 def bus_1_1():
-    with open(json/data_1_go.json, 'r') as f:
+    with open('json/data_1_go.json', 'r') as f:
         datasend = json.load(f)
         return jsonify(datasend)
 
