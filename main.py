@@ -55,6 +55,57 @@ def bus_1_1_location():
     with open('json/data_1_go_location.json', 'r') as f:
         datasend = json.load(f)
         return jsonify(datasend)
+# 퇴근버스
+@app.route('/bus_1_2',methods=['POST'])
+def bus_1_2():
+    with open('json/data_1_out.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
+@app.route('/bus_1_2_location',methods=['POST'])
+def bus_1_2_location():
+    with open('json/data_1_out_location.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
+# 김천구미
+@app.route('/bus_2_1',methods=['POST'])
+def bus_2_1():
+    with open('json/data_2_1.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
+@app.route('/bus_2_1_location',methods=['POST'])
+def bus_2_1_location():
+    with open('json/data_2_1_location.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
+# 대곡
+@app.route('/bus_2_2',methods=['POST'])
+def bus_2_2():
+    with open('json/data_2_2.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
+@app.route('/bus_2_2_location',methods=['POST'])
+def bus_2_2_location():
+    with open('json/data_2_2_location.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
+# 테크노
+@app.route('/bus_2_3',methods=['POST'])
+def bus_2_3():
+    with open('json/data_2_3.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
+@app.route('/bus_2_3_location',methods=['POST'])
+def bus_2_3_location():
+    with open('json/data_2_3_location.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
 
 
 
