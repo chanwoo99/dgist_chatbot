@@ -113,6 +113,18 @@ def food_1():
         datasend = json.load(f)
         return jsonify(datasend)
 
+@app.route('/food_2',methods=['POST'])
+def food_2():
+    with open('json/bob/data_2.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
+@app.route('/food_3',methods=['POST'])
+def food_3():
+    with open('json/bob/data_3.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
 
 
 

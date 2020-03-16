@@ -13,6 +13,9 @@ df= df.fillna('없음')
 df2 = pd.read_excel('foodtable/2.xlsx',header=1, names = ['None', "type",'월','화','수','목','금'])
 df2= df2.fillna('없음')
 
+df3 = pd.read_excel('foodtable/2.xlsx',header=5, names = ['None', "type",'월','화','수','목','금'])
+df3= df3.fillna('없음')
+
 
 
 #json 형식으로 바꾸는 함수
@@ -66,4 +69,16 @@ with open('json/bob/data_1.json', 'w', encoding='utf-8') as make_file:
     json.dump(encode_json(data_1), make_file, indent="\t")
 
 #연구동 ab코너
-data_5=[make_block(df2[week_today],0,13)]
+data_5="중식 A&B: \n "+make_block(df2[week_today],0,13)
+data_6="중식 A&B: \n "+make_block(df2[week_today],13,6)
+data_7=[data_5,data_6]
+
+with open('json/bob/data_2.json', 'w', encoding='utf-8') as make_file:
+    json.dump(encode_json(data_7), make_file, indent="\t")
+
+#교직원
+data_8="중식 : \n "+make_block(df3[week_today],0,9)
+data_9=[data_8]
+
+with open('json/bob/data_3.json', 'w', encoding='utf-8') as make_file:
+    json.dump(encode_json(data_9), make_file, indent="\t")
