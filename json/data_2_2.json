@@ -1,0 +1,28 @@
+{
+	"contents": [
+		{
+			"type": "card.text",
+			"cards": [
+				{
+					"description": "\ud3c9\uc77c2 \ub178\uc120: DGIST[14:00]\u2192\uc720\uac00\uc74d\uc0ac\ubb34\uc18c \uac74\ub108\ud3b8[14:10]\u2192\ub300\uace1\uc5ed[14:30] \r\n\ub300\uace1\uc5ed[14:35]\u2192\uc720\uac00\uc74d\uc0ac\ubb34\uc18c \uc55e[14:55]\u2192DGIST[15:05] \ucc28\ub7c9: 12\uc778\uc2b9 (\uc720\ub8cc)"
+				},
+				{
+					"description": "\ud3c9\uc77c3 \ub178\uc120: DGIST[16:00]\u2192\uc720\uac00\uc74d\uc0ac\ubb34\uc18c \uac74\ub108\ud3b8[16:10]\u2192\ub300\uace1\uc5ed[16:30] \r\n\ub300\uace1\uc5ed[16:35]\u2192\uc720\uac00\uc74d\uc0ac\ubb34\uc18c \uc55e[16:55]\u2192DGIST[17:05] \ucc28\ub7c9: 12\uc778\uc2b9 (\uc720\ub8cc)"
+				},
+				{
+					"description": "\ud3c9\uc77c4 \ub178\uc120: \ub300\uace1\uc5ed[20:30]\u2192DGIST[21:00] / DGIST[21:30]\u2192\ub300\uace1\uc5ed[21:55] \ucc28\ub7c9: 45\uc778\uc2b9"
+				},
+				{
+					"description": "\ud1a0\u00b7\uc77c\u00b7\uacf5\ud734\uc77c \ub178\uc120: \ub300\uace1\uc5ed[09:30]\u2192DGIST[09:55]  \n\r\nDGIST[15:00]\u2192\ub300\uace1\uc5ed[15:25]\n\r\n\ub300\uace1\uc5ed[20:30]\u2192DGIST[20:55] \n\r\nDGIST[21:00]\u2192\ub300\uace1\uc5ed[21:25] \ucc28\ub7c9: 45\uc778\uc2b9"
+				}
+			]
+		}
+	],
+	"quickReplies": [
+		{
+			"type": "text",
+			"label": "\ud0c0\ub294\uacf3 \ubcf4\uae30",
+			"message": "\ub300\uace1 \ud0c0\ub294\uacf3"
+		}
+	]
+}

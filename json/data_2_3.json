@@ -1,0 +1,19 @@
+{
+	"contents": [
+		{
+			"type": "card.text",
+			"cards": [
+				{
+					"description": "\ud3c9\uc77c \ub178\uc120: DGIST[10:00]\u2192\uc720\uac00\uc74d\uc0ac\ubb34\uc18c \uac74\ub108\ud3b8[10:10]\u2192DGIST[10:20]\r\nDGIST[11:00]\u2192\uc720\uac00\uc74d\uc0ac\ubb34\uc18c \uac74\ub108\ud3b8[11:10]\u2192DGIST[11:20]\r\nDGIST[12:00]\u2192\uc720\uac00\uc74d\uc0ac\ubb34\uc18c \uac74\ub108\ud3b8[12:10]\u2192DGIST[12:20]\r\nDGIST[13:00]\u2192\uc720\uac00\uc74d\uc0ac\ubb34\uc18c \uac74\ub108\ud3b8[13:10]\u2192DGIST[13:20] \ucc28\ub7c9: 33\uc778\uc2b9 (\ubb34\ub8cc)"
+				}
+			]
+		}
+	],
+	"quickReplies": [
+		{
+			"type": "text",
+			"label": "\ud0c0\ub294\uacf3 \ubcf4\uae30",
+			"message": "\ud14c\ud06c\ub178\ud3f4\ub9ac\uc2a4 \ud0c0\ub294\uacf3"
+		}
+	]
+}
