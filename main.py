@@ -107,6 +107,12 @@ def bus_2_3_location():
         datasend = json.load(f)
         return jsonify(datasend)
 
+@app.route('/food_1',methods=['POST'])
+def food_1():
+    with open('json/bob/data_1.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
 
 
 
