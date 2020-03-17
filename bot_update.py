@@ -70,7 +70,7 @@ with open('json/bob/data_1.json', 'w', encoding='utf-8') as make_file:
 
 #연구동 ab코너
 data_5="중식 A&B: \n "+make_block(df2[week_today],0,13)
-data_6="중식 A&B: \n "+make_block(df2[week_today],13,6)
+data_6="석식 B: \n "+make_block(df2[week_today],13,6)
 data_7=[data_5,data_6]
 
 with open('json/bob/data_2.json', 'w', encoding='utf-8') as make_file:
