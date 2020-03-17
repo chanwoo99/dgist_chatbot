@@ -13,7 +13,7 @@ df= df.fillna('없음')
 df2 = pd.read_excel('foodtable/2.xlsx',header=1, names = ['None', "type",'월','화','수','목','금'])
 df2= df2.fillna('없음')
 
-df3 = pd.read_excel('foodtable/2.xlsx',header=5, names = ['None', "type",'월','화','수','목','금'])
+df3 = pd.read_excel('foodtable/3.xlsx',header=5, names = ['None', "type",'월','화','수','목','금'])
 df3= df3.fillna('없음')
 
 
