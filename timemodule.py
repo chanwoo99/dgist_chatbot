@@ -26,5 +26,5 @@ def weekday(time):
 
 def today_weekday(time):
     weekdata=["월","화","수","목","금","토","일"]
-    time=time+.datetime.timedelta(hours=9)
+    time=time+datetime.timedelta(hours=9)
     return weekdata[time.weekday()]
