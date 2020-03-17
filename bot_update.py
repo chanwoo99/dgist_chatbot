@@ -43,42 +43,42 @@ def make_block(data,init,ran):
             text+="\n"
     return text
 
+def food_update():
+    #일품 정식
+    data_1=[]
+    data_1.append("A : "+df[week_today][0])
+    data_1.append("B : "+df[week_today][1])
+    data_1.append("C : "+df[week_today][2])
+    data_1.append("셀프코너 : "+df[week_today][3])
 
-#일품 정식
-data_1=[]
-data_1.append("A : "+df[week_today][0])
-data_1.append("B : "+df[week_today][1])
-data_1.append("C : "+df[week_today][2])
-data_1.append("셀프코너 : "+df[week_today][3])
+    #그냥 정식
+    data_2="일반 정식: \n "+make_block(df[week_today],4,6)
 
-#그냥 정식
-data_2="일반 정식: \n "+make_block(df[week_today],4,6)
+    #석식 1
+    data_3="석식 1: \n "+make_block(df[week_today],10,6)
 
-#석식 1
-data_3="석식 1: \n "+make_block(df[week_today],10,6)
+    #석식 2
+    data_4="석식 2: \n "+make_block(df[week_today],16,6)
 
-#석식 2
-data_4="석식 2: \n "+make_block(df[week_today],16,6)
+    #학생식당 종합
+    data_1.append(data_2)
+    data_1.append(data_3)
+    data_1.append(data_4)
 
-#학생식당 종합
-data_1.append(data_2)
-data_1.append(data_3)
-data_1.append(data_4)
+    with open('json/bob/data_1.json', 'w', encoding='utf-8') as make_file:
+        json.dump(encode_json(data_1), make_file, indent="\t")
 
-with open('json/bob/data_1.json', 'w', encoding='utf-8') as make_file:
-    json.dump(encode_json(data_1), make_file, indent="\t")
+    #연구동 ab코너
+    data_5="중식 A&B: \n "+make_block(df2[week_today],0,13)
+    data_6="석식 B: \n "+make_block(df2[week_today],13,6)
+    data_7=[data_5,data_6]
 
-#연구동 ab코너
-data_5="중식 A&B: \n "+make_block(df2[week_today],0,13)
-data_6="석식 B: \n "+make_block(df2[week_today],13,6)
-data_7=[data_5,data_6]
+    with open('json/bob/data_2.json', 'w', encoding='utf-8') as make_file:
+        json.dump(encode_json(data_7), make_file, indent="\t")
 
-with open('json/bob/data_2.json', 'w', encoding='utf-8') as make_file:
-    json.dump(encode_json(data_7), make_file, indent="\t")
+    #교직원
+    data_8="중식 : \n "+make_block(df3[week_today],0,9)
+    data_9=[data_8]
 
-#교직원
-data_8="중식 : \n "+make_block(df3[week_today],0,9)
-data_9=[data_8]
-
-with open('json/bob/data_3.json', 'w', encoding='utf-8') as make_file:
-    json.dump(encode_json(data_9), make_file, indent="\t")
+    with open('json/bob/data_3.json', 'w', encoding='utf-8') as make_file:
+        json.dump(encode_json(data_9), make_file, indent="\t")
