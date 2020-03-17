@@ -6,7 +6,7 @@ import datetime
 import timemodule
 import json
 
-week_today=timemodule.weekday(datetime.datetime.now())  #오늘이 무슨 요일인지 알려주는 변수
+week_today=timemodule.today_weekday(datetime.datetime.now())  #오늘이 무슨 요일인지 알려주는 변수
 df = pd.read_excel('foodtable/1.xlsx',header=5, names = ['None', "type",'월','화','수','목','금'])
 df= df.fillna('없음')
 
