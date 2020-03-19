@@ -263,4 +263,4 @@ def bus_update():
 while True:
     bus_update()
     bot_update.food_update()
-    time.sleep(86399)
+    time.sleep(3600)
