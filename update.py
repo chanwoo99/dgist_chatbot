@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import bot_update
+import datetime
 
 
 #json 형식으로 바꾸는 함수
@@ -262,5 +263,5 @@ def bus_update():
 #자동 업데이트 하루에 한번씩
 while True:
     bus_update()
-    bot_update.food_update()
-    time.sleep(3600)
+    bot_update.food_update(timemodule.trans(datetime.datetime.now()+datetime.timedelta(hours=9)))
+    time.sleep(1800)

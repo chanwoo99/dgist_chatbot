@@ -43,9 +43,10 @@ def make_block(data,init,ran):
             text+="\n"
     return text
 
-def food_update():
+def food_update(test_time):
     #일품 정식
     data_1=[]
+    data_1.append(test_time)
     data_1.append("A : "+df[week_today][0])
     data_1.append("B : "+df[week_today][1])
     data_1.append("C : "+df[week_today][2])
