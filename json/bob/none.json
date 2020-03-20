@@ -1,0 +1,19 @@
+{
+  "contents": [
+    {
+      "type": "card.text",
+      "cards": [
+        {
+          "description": "오늘은 학식 메뉴가 없습니다."
+        }
+      ]
+    }
+  ],
+  "quickReplies": [
+    {
+      "type": "text",
+      "label": "뒤로가기",
+      "message": "학식 메뉴 안내"
+    }
+  ]
+}

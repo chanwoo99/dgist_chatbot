@@ -264,5 +264,5 @@ def bus_update():
 #자동 업데이트 하루에 한번씩
 while True:
     bus_update()
-    bot_update.food_update((datetime.datetime.now()+datetime.timedelta(hours=9)).minute)
+    bot_update.food_update()
     time.sleep(1800)

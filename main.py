@@ -109,21 +109,39 @@ def bus_2_3_location():
 
 @app.route('/food_1',methods=['POST'])
 def food_1():
-    with open('json/bob/data_1.json', 'r') as f:
-        datasend = json.load(f)
-        return jsonify(datasend)
+
+    if (timemodule.today_weekday(datetime.datetime.now()))=="토" or (timemodule.today_weekday(datetime.datetime.now()))=="일":
+        with open('json/bob/none.json', 'r') as f:
+            datasend = json.load(f)
+            return jsonify(datasend)
+    else:
+        with open('json/bob/data_1.json', 'r') as f:
+            datasend = json.load(f)
+            return jsonify(datasend)
 
 @app.route('/food_2',methods=['POST'])
 def food_2():
-    with open('json/bob/data_2.json', 'r') as f:
-        datasend = json.load(f)
-        return jsonify(datasend)
+
+    if (timemodule.today_weekday(datetime.datetime.now()))=="토" or (timemodule.today_weekday(datetime.datetime.now()))=="일":
+        with open('json/bob/none.json', 'r') as f:
+            datasend = json.load(f)
+            return jsonify(datasend)
+    else:
+        with open('json/bob/data_2.json', 'r') as f:
+            datasend = json.load(f)
+            return jsonify(datasend)
 
 @app.route('/food_3',methods=['POST'])
 def food_3():
-    with open('json/bob/data_3.json', 'r') as f:
-        datasend = json.load(f)
-        return jsonify(datasend)
+
+    if (timemodule.today_weekday(datetime.datetime.now()))=="토" or (timemodule.today_weekday(datetime.datetime.now()))=="일":
+        with open('json/bob/none.json', 'r') as f:
+            datasend = json.load(f)
+            return jsonify(datasend)
+    else:
+        with open('json/bob/data_3.json', 'r') as f:
+            datasend = json.load(f)
+            return jsonify(datasend)
 
 
 
