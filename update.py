@@ -7,6 +7,9 @@ import json
 import bot_update
 import datetime
 import timemodule
+import os
+
+os.chdir("/home/ubuntu/dgist_chatbot")
 
 
 #json 형식으로 바꾸는 함수
