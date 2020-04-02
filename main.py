@@ -109,7 +109,7 @@ def bus_2_3_location():
 
 @app.route('/food_1',methods=['POST'])
 def food_1():
-''' 주말 밥 없을 경우
+    ''' 주말 밥 없을 경우
     if (timemodule.today_weekday(datetime.datetime.now()))=="토" or (timemodule.today_weekday(datetime.datetime.now()))=="일":
         with open('json/bob/none.json', 'r') as f:
             datasend = json.load(f)
@@ -118,7 +118,7 @@ def food_1():
         with open('json/bob/data_1.json', 'r') as f:
             datasend = json.load(f)
             return jsonify(datasend)
-'''
+    '''
 
     with open('json/bob/data_1.json', 'r') as f:
         datasend = json.load(f)
