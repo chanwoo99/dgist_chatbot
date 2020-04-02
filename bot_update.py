@@ -46,6 +46,22 @@ def make_block(data,init,ran):
 
 def food_update():
     #일품 정식
+
+    data_1=[]
+    data_1.append("A : "+df[week_today][0])
+    data_1.append("B : "+df[week_today][1])
+
+    #그냥 정식
+    data_2="일반 정식: \n "+make_block(df[week_today],2,6)
+
+    #석식 1
+    data_3="석식 1: \n "+make_block(df[week_today],8,6)
+
+    #석식 2
+    data_4="석식 2: \n "+make_block(df[week_today],14,6)
+
+    '''
+    # 구버전
     data_1=[]
     data_1.append("A : "+df[week_today][0])
     data_1.append("B : "+df[week_today][1])
@@ -60,6 +76,7 @@ def food_update():
 
     #석식 2
     data_4="석식 2: \n "+make_block(df[week_today],16,6)
+    '''
 
     #학생식당 종합
     data_1.append(data_2)
