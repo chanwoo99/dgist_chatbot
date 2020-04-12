@@ -6,6 +6,7 @@ import timemodule
 import data
 import datetime
 import json
+import weather
 
 app = Flask(__name__)
 
@@ -148,6 +149,14 @@ def food_3():
         with open('json/bob/data_3.json', 'r') as f:
             datasend = json.load(f)
             return jsonify(datasend)
+
+@app.route('/weather',methods=['POST'])
+def weather():
+    with open('json/weather.json', 'r') as f:
+        datasend = json.load(f)
+        return jsonify(datasend)
+
+
 
 
 
