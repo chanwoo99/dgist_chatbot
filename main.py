@@ -151,7 +151,7 @@ def food_3():
             return jsonify(datasend)
 
 @app.route('/weather',methods=['POST'])
-def weather():
+def weather_show():
     weather.run_weather()
     with open('json/weather.json', 'r') as f:
         datasend = json.load(f)
