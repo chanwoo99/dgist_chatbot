@@ -3,7 +3,7 @@ from requests import get  # to make GET request
 
 import json
 import os
-os.chdir("/home/ubuntu/dgist_chatbot")
+#os.chdir("/home/ubuntu/dgist_chatbot")
 
 def download(url, file_name):
     with open(file_name, "wb") as file:   # open in binary mode
@@ -26,7 +26,7 @@ def encode_json(data):
 
 import xml.etree.ElementTree as elemTree
 
-def run():
+def run_weather():
     tree = elemTree.parse('weather_data.xml')
     root = tree.getroot()
 
