@@ -10,9 +10,9 @@ def download(url, file_name):
         response = get(url)               # get request
         file.write(response.content)      # write to file
 
-if __name__ == '__main__':
-	url = "http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=2771026500"
-	download(url,"weather_data.xml")
+
+url = "http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=2771026500"
+download(url,"weather_data.xml")
 
 def encode_json(data):
     card=[]
