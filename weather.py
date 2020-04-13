@@ -11,8 +11,7 @@ def download(url, file_name):
         file.write(response.content)      # write to file
 
 
-url = "http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=2771026500"
-download(url,"weather_data.xml")
+
 
 def encode_json(data):
     card=[]
@@ -27,6 +26,10 @@ def encode_json(data):
 import xml.etree.ElementTree as elemTree
 
 def run_weather():
+
+    url = "http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=2771026500"
+    download(url,"weather_data.xml")
+    
     tree = elemTree.parse('weather_data.xml')
     root = tree.getroot()
 
