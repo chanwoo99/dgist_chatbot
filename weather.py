@@ -29,7 +29,7 @@ def run_weather():
 
     url = "http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=2771026500"
     download(url,"weather_data.xml")
-    
+
     tree = elemTree.parse('weather_data.xml')
     root = tree.getroot()
 
@@ -39,7 +39,7 @@ def run_weather():
     pre_data=[]
 
     for i in data:
-        text=date.text+"업데이트 \n" + "시간 : "+i[0].text + "\n" + "온도 : " + i[2].text +"\n" + "날씨 : " + i[7].text + "\n" + "강수확률 : " + i[9].text + "%"
+        text=date.text+"업데이트 \n" + "날짜 : "+i[1].text+"\n" + "일 후" + "시간 : "+i[0].text + "\n" + "온도 : " + i[2].text +"\n" + "날씨 : " + i[7].text + "\n" + "강수확률 : " + i[9].text + "%"
         pre_data.append(text)
 
 
