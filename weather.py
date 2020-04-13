@@ -39,7 +39,7 @@ def run_weather():
     pre_data=[]
 
     for i in data:
-        text=date.text+"업데이트 \n" + "날짜 : "+i[1].text+"\n" + "일 후" + "시간 : "+i[0].text + "\n" + "온도 : " + i[2].text +"\n" + "날씨 : " + i[7].text + "\n" + "강수확률 : " + i[9].text + "%"
+        text=date.text+"업데이트 \n" + "날짜 : "+i[1].text + "일 후"+"\n" + "시간 : "+i[0].text + "\n" + "온도 : " + i[2].text +"\n" + "날씨 : " + i[7].text + "\n" + "강수확률 : " + i[9].text + "%"
         pre_data.append(text)
 
 
