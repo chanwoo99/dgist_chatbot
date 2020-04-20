@@ -6,7 +6,20 @@ import datetime
 import timemodule
 import json
 import os
+from requests import get
 os.chdir("/home/ubuntu/dgist_chatbot")
+
+
+def download(url, file_name):
+    with open(file_name, "wb") as file:   # open in binary mode
+        response = get(url)               # get request
+        file.write(response.content)
+
+download('https://github.com/chanwoo99/dgist_chatbot/blob/master/foodtable/1.xlsx?raw=true','foodtable/1.xlsx')
+download('https://github.com/chanwoo99/dgist_chatbot/blob/master/foodtable/2.xlsx?raw=true','foodtable/2.xlsx')
+download('https://github.com/chanwoo99/dgist_chatbot/blob/master/foodtable/3.xlsx?raw=true','foodtable/3.xlsx')
+
+
 week_today=timemodule.today_weekday(datetime.datetime.now())  #오늘이 무슨 요일인지 알려주는 변수
 df = pd.read_excel('foodtable/1.xlsx',header=5, names = ['None', "type",'월','화','수','목','금','토','일'])
 df= df.fillna('없음')
