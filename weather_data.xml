@@ -6,7 +6,7 @@
 <description>동네예보 웹서비스</description>
 <language>ko</language>
 <generator>동네예보</generator>
-<pubDate>2020년 04월 12일 (일)요일 20:00</pubDate>
+<pubDate>2020년 04월 13일 (월)요일 14:00</pubDate>
  <item>
 <author>기상청</author>
 <category>대구광역시 달성군 현풍읍</category>
@@ -14,165 +14,39 @@
 <guid>http://www.kma.go.kr/weather/forecast/timeseries.jsp?searchType=INTEREST&amp;dongCode=2771026500</guid>
 <description>
  <header>
-  <tm>202004122000</tm>
-  <ts>6</ts>
+  <tm>202004131400</tm>
+  <ts>4</ts>
   <x>86</x>
   <y>87</y>
  </header>
  <body>
   <data seq="0">
-   <hour>24</hour>
+   <hour>18</hour>
    <day>0</day>
-   <temp>9.0</temp>
+   <temp>17.0</temp>
    <tmx>-999.0</tmx>
    <tmn>-999.0</tmn>
-   <sky>4</sky>
+   <sky>1</sky>
    <pty>0</pty>
-   <wfKor>흐림</wfKor>
-   <wfEn>Cloudy</wfEn>
-   <pop>30</pop>
+   <wfKor>맑음</wfKor>
+   <wfEn>Clear</wfEn>
+   <pop>0</pop>
    <r12>0.0</r12>
    <s12>0.0</s12>
-   <ws>9.0</ws>
+   <ws>3.9000000000000004</ws>
    <wd>0</wd>
    <wdKor>북</wdKor>
    <wdEn>N</wdEn>
-   <reh>75</reh>
+   <reh>20</reh>
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
   <data seq="1">
-   <hour>3</hour>
-   <day>1</day>
-   <temp>8.0</temp>
-   <tmx>19.0</tmx>
-   <tmn>6.0</tmn>
-   <sky>4</sky>
-   <pty>0</pty>
-   <wfKor>흐림</wfKor>
-   <wfEn>Cloudy</wfEn>
-   <pop>30</pop>
-   <r12>0.0</r12>
-   <s12>0.0</s12>
-   <ws>9.0</ws>
-   <wd>0</wd>
-   <wdKor>북</wdKor>
-   <wdEn>N</wdEn>
-   <reh>70</reh>
-   <r06>0.0</r06>
-   <s06>0.0</s06>
-  </data>
-  <data seq="2">
-   <hour>6</hour>
-   <day>1</day>
-   <temp>7.0</temp>
-   <tmx>19.0</tmx>
-   <tmn>6.0</tmn>
-   <sky>4</sky>
-   <pty>0</pty>
-   <wfKor>흐림</wfKor>
-   <wfEn>Cloudy</wfEn>
-   <pop>30</pop>
-   <r12>0.0</r12>
-   <s12>0.0</s12>
-   <ws>9.0</ws>
-   <wd>0</wd>
-   <wdKor>북</wdKor>
-   <wdEn>N</wdEn>
-   <reh>75</reh>
-   <r06>0.0</r06>
-   <s06>0.0</s06>
-  </data>
-  <data seq="3">
-   <hour>9</hour>
-   <day>1</day>
-   <temp>9.0</temp>
-   <tmx>19.0</tmx>
-   <tmn>6.0</tmn>
-   <sky>3</sky>
-   <pty>0</pty>
-   <wfKor>구름 많음</wfKor>
-   <wfEn>Mostly Cloudy</wfEn>
-   <pop>20</pop>
-   <r12>0.0</r12>
-   <s12>0.0</s12>
-   <ws>9.0</ws>
-   <wd>0</wd>
-   <wdKor>북</wdKor>
-   <wdEn>N</wdEn>
-   <reh>50</reh>
-   <r06>0.0</r06>
-   <s06>0.0</s06>
-  </data>
-  <data seq="4">
-   <hour>12</hour>
-   <day>1</day>
-   <temp>13.0</temp>
-   <tmx>19.0</tmx>
-   <tmn>6.0</tmn>
-   <sky>3</sky>
-   <pty>0</pty>
-   <wfKor>구름 많음</wfKor>
-   <wfEn>Mostly Cloudy</wfEn>
-   <pop>20</pop>
-   <r12>0.0</r12>
-   <s12>0.0</s12>
-   <ws>7.0</ws>
-   <wd>0</wd>
-   <wdKor>북</wdKor>
-   <wdEn>N</wdEn>
-   <reh>30</reh>
-   <r06>0.0</r06>
-   <s06>0.0</s06>
-  </data>
-  <data seq="5">
-   <hour>15</hour>
-   <day>1</day>
-   <temp>18.0</temp>
-   <tmx>19.0</tmx>
-   <tmn>6.0</tmn>
-   <sky>3</sky>
-   <pty>0</pty>
-   <wfKor>구름 많음</wfKor>
-   <wfEn>Mostly Cloudy</wfEn>
-   <pop>20</pop>
-   <r12>0.0</r12>
-   <s12>0.0</s12>
-   <ws>5.0</ws>
-   <wd>0</wd>
-   <wdKor>북</wdKor>
-   <wdEn>N</wdEn>
-   <reh>25</reh>
-   <r06>0.0</r06>
-   <s06>0.0</s06>
-  </data>
-  <data seq="6">
-   <hour>18</hour>
-   <day>1</day>
-   <temp>17.0</temp>
-   <tmx>19.0</tmx>
-   <tmn>6.0</tmn>
-   <sky>1</sky>
-   <pty>0</pty>
-   <wfKor>맑음</wfKor>
-   <wfEn>Clear</wfEn>
-   <pop>0</pop>
-   <r12>0.0</r12>
-   <s12>0.0</s12>
-   <ws>4.0</ws>
-   <wd>0</wd>
-   <wdKor>북</wdKor>
-   <wdEn>N</wdEn>
-   <reh>25</reh>
-   <r06>0.0</r06>
-   <s06>0.0</s06>
-  </data>
-  <data seq="7">
    <hour>21</hour>
-   <day>1</day>
-   <temp>12.0</temp>
-   <tmx>19.0</tmx>
-   <tmn>6.0</tmn>
+   <day>0</day>
+   <temp>13.0</temp>
+   <tmx>-999.0</tmx>
+   <tmn>-999.0</tmn>
    <sky>1</sky>
    <pty>0</pty>
    <wfKor>맑음</wfKor>
@@ -180,7 +54,7 @@
    <pop>0</pop>
    <r12>0.0</r12>
    <s12>0.0</s12>
-   <ws>2.6</ws>
+   <ws>2.5</ws>
    <wd>1</wd>
    <wdKor>북동</wdKor>
    <wdEn>NE</wdEn>
@@ -188,12 +62,12 @@
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
-  <data seq="8">
+  <data seq="2">
    <hour>24</hour>
-   <day>1</day>
+   <day>0</day>
    <temp>9.0</temp>
-   <tmx>19.0</tmx>
-   <tmn>6.0</tmn>
+   <tmx>-999.0</tmx>
+   <tmn>-999.0</tmn>
    <sky>1</sky>
    <pty>0</pty>
    <wfKor>맑음</wfKor>
@@ -201,20 +75,20 @@
    <pop>0</pop>
    <r12>0.0</r12>
    <s12>0.0</s12>
-   <ws>1.9000000000000001</ws>
-   <wd>7</wd>
-   <wdKor>북서</wdKor>
-   <wdEn>NW</wdEn>
+   <ws>1.8</ws>
+   <wd>6</wd>
+   <wdKor>서</wdKor>
+   <wdEn>W</wdEn>
    <reh>60</reh>
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
-  <data seq="9">
+  <data seq="3">
    <hour>3</hour>
-   <day>2</day>
+   <day>1</day>
    <temp>6.0</temp>
    <tmx>24.0</tmx>
-   <tmn>4.0</tmn>
+   <tmn>3.0</tmn>
    <sky>1</sky>
    <pty>0</pty>
    <wfKor>맑음</wfKor>
@@ -230,12 +104,12 @@
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
-  <data seq="10">
+  <data seq="4">
    <hour>6</hour>
-   <day>2</day>
-   <temp>5.0</temp>
+   <day>1</day>
+   <temp>3.0</temp>
    <tmx>24.0</tmx>
-   <tmn>4.0</tmn>
+   <tmn>3.0</tmn>
    <sky>1</sky>
    <pty>0</pty>
    <wfKor>맑음</wfKor>
@@ -251,12 +125,12 @@
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
-  <data seq="11">
+  <data seq="5">
    <hour>9</hour>
-   <day>2</day>
+   <day>1</day>
    <temp>13.0</temp>
    <tmx>24.0</tmx>
-   <tmn>4.0</tmn>
+   <tmn>3.0</tmn>
    <sky>1</sky>
    <pty>0</pty>
    <wfKor>맑음</wfKor>
@@ -264,7 +138,7 @@
    <pop>0</pop>
    <r12>0.0</r12>
    <s12>0.0</s12>
-   <ws>1.9000000000000001</ws>
+   <ws>2.0</ws>
    <wd>6</wd>
    <wdKor>서</wdKor>
    <wdEn>W</wdEn>
@@ -272,12 +146,12 @@
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
-  <data seq="12">
+  <data seq="6">
    <hour>12</hour>
-   <day>2</day>
+   <day>1</day>
    <temp>21.0</temp>
    <tmx>24.0</tmx>
-   <tmn>4.0</tmn>
+   <tmn>3.0</tmn>
    <sky>1</sky>
    <pty>0</pty>
    <wfKor>맑음</wfKor>
@@ -285,20 +159,20 @@
    <pop>0</pop>
    <r12>0.0</r12>
    <s12>0.0</s12>
-   <ws>3.0</ws>
-   <wd>7</wd>
-   <wdKor>북서</wdKor>
-   <wdEn>NW</wdEn>
-   <reh>25</reh>
+   <ws>3.1</ws>
+   <wd>6</wd>
+   <wdKor>서</wdKor>
+   <wdEn>W</wdEn>
+   <reh>20</reh>
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
-  <data seq="13">
+  <data seq="7">
    <hour>15</hour>
-   <day>2</day>
+   <day>1</day>
    <temp>23.0</temp>
    <tmx>24.0</tmx>
-   <tmn>4.0</tmn>
+   <tmn>3.0</tmn>
    <sky>1</sky>
    <pty>0</pty>
    <wfKor>맑음</wfKor>
@@ -306,7 +180,28 @@
    <pop>0</pop>
    <r12>0.0</r12>
    <s12>0.0</s12>
-   <ws>3.2</ws>
+   <ws>3.6</ws>
+   <wd>6</wd>
+   <wdKor>서</wdKor>
+   <wdEn>W</wdEn>
+   <reh>20</reh>
+   <r06>0.0</r06>
+   <s06>0.0</s06>
+  </data>
+  <data seq="8">
+   <hour>18</hour>
+   <day>1</day>
+   <temp>21.0</temp>
+   <tmx>24.0</tmx>
+   <tmn>3.0</tmn>
+   <sky>1</sky>
+   <pty>0</pty>
+   <wfKor>맑음</wfKor>
+   <wfEn>Clear</wfEn>
+   <pop>0</pop>
+   <r12>0.0</r12>
+   <s12>0.0</s12>
+   <ws>2.9000000000000004</ws>
    <wd>7</wd>
    <wdKor>북서</wdKor>
    <wdEn>NW</wdEn>
@@ -314,33 +209,12 @@
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
-  <data seq="14">
-   <hour>18</hour>
-   <day>2</day>
-   <temp>21.0</temp>
-   <tmx>24.0</tmx>
-   <tmn>4.0</tmn>
-   <sky>1</sky>
-   <pty>0</pty>
-   <wfKor>맑음</wfKor>
-   <wfEn>Clear</wfEn>
-   <pop>0</pop>
-   <r12>0.0</r12>
-   <s12>0.0</s12>
-   <ws>2.8000000000000003</ws>
-   <wd>7</wd>
-   <wdKor>북서</wdKor>
-   <wdEn>NW</wdEn>
-   <reh>20</reh>
-   <r06>0.0</r06>
-   <s06>0.0</s06>
-  </data>
-  <data seq="15">
+  <data seq="9">
    <hour>21</hour>
-   <day>2</day>
+   <day>1</day>
    <temp>16.0</temp>
    <tmx>24.0</tmx>
-   <tmn>4.0</tmn>
+   <tmn>3.0</tmn>
    <sky>1</sky>
    <pty>0</pty>
    <wfKor>맑음</wfKor>
@@ -356,12 +230,12 @@
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
-  <data seq="16">
+  <data seq="10">
    <hour>24</hour>
-   <day>2</day>
-   <temp>11.0</temp>
+   <day>1</day>
+   <temp>10.0</temp>
    <tmx>24.0</tmx>
-   <tmn>4.0</tmn>
+   <tmn>3.0</tmn>
    <sky>1</sky>
    <pty>0</pty>
    <wfKor>맑음</wfKor>
@@ -369,11 +243,179 @@
    <pop>0</pop>
    <r12>0.0</r12>
    <s12>0.0</s12>
-   <ws>1.5</ws>
+   <ws>1.6</ws>
    <wd>6</wd>
    <wdKor>서</wdKor>
    <wdEn>W</wdEn>
-   <reh>55</reh>
+   <reh>60</reh>
+   <r06>0.0</r06>
+   <s06>0.0</s06>
+  </data>
+  <data seq="11">
+   <hour>3</hour>
+   <day>2</day>
+   <temp>7.0</temp>
+   <tmx>23.0</tmx>
+   <tmn>6.0</tmn>
+   <sky>3</sky>
+   <pty>0</pty>
+   <wfKor>구름 많음</wfKor>
+   <wfEn>Mostly Cloudy</wfEn>
+   <pop>20</pop>
+   <r12>0.0</r12>
+   <s12>0.0</s12>
+   <ws>1.4000000000000001</ws>
+   <wd>7</wd>
+   <wdKor>북서</wdKor>
+   <wdEn>NW</wdEn>
+   <reh>75</reh>
+   <r06>0.0</r06>
+   <s06>0.0</s06>
+  </data>
+  <data seq="12">
+   <hour>6</hour>
+   <day>2</day>
+   <temp>6.0</temp>
+   <tmx>23.0</tmx>
+   <tmn>6.0</tmn>
+   <sky>3</sky>
+   <pty>0</pty>
+   <wfKor>구름 많음</wfKor>
+   <wfEn>Mostly Cloudy</wfEn>
+   <pop>20</pop>
+   <r12>0.0</r12>
+   <s12>0.0</s12>
+   <ws>1.3</ws>
+   <wd>7</wd>
+   <wdKor>북서</wdKor>
+   <wdEn>NW</wdEn>
+   <reh>85</reh>
+   <r06>0.0</r06>
+   <s06>0.0</s06>
+  </data>
+  <data seq="13">
+   <hour>9</hour>
+   <day>2</day>
+   <temp>13.0</temp>
+   <tmx>23.0</tmx>
+   <tmn>6.0</tmn>
+   <sky>3</sky>
+   <pty>0</pty>
+   <wfKor>구름 많음</wfKor>
+   <wfEn>Mostly Cloudy</wfEn>
+   <pop>20</pop>
+   <r12>0.0</r12>
+   <s12>0.0</s12>
+   <ws>1.8</ws>
+   <wd>7</wd>
+   <wdKor>북서</wdKor>
+   <wdEn>NW</wdEn>
+   <reh>50</reh>
+   <r06>0.0</r06>
+   <s06>0.0</s06>
+  </data>
+  <data seq="14">
+   <hour>12</hour>
+   <day>2</day>
+   <temp>19.0</temp>
+   <tmx>23.0</tmx>
+   <tmn>6.0</tmn>
+   <sky>3</sky>
+   <pty>0</pty>
+   <wfKor>구름 많음</wfKor>
+   <wfEn>Mostly Cloudy</wfEn>
+   <pop>20</pop>
+   <r12>0.0</r12>
+   <s12>0.0</s12>
+   <ws>2.7</ws>
+   <wd>6</wd>
+   <wdKor>서</wdKor>
+   <wdEn>W</wdEn>
+   <reh>25</reh>
+   <r06>0.0</r06>
+   <s06>0.0</s06>
+  </data>
+  <data seq="15">
+   <hour>15</hour>
+   <day>2</day>
+   <temp>22.0</temp>
+   <tmx>23.0</tmx>
+   <tmn>6.0</tmn>
+   <sky>3</sky>
+   <pty>0</pty>
+   <wfKor>구름 많음</wfKor>
+   <wfEn>Mostly Cloudy</wfEn>
+   <pop>20</pop>
+   <r12>0.0</r12>
+   <s12>0.0</s12>
+   <ws>2.8000000000000003</ws>
+   <wd>6</wd>
+   <wdKor>서</wdKor>
+   <wdEn>W</wdEn>
+   <reh>25</reh>
+   <r06>0.0</r06>
+   <s06>0.0</s06>
+  </data>
+  <data seq="16">
+   <hour>18</hour>
+   <day>2</day>
+   <temp>20.0</temp>
+   <tmx>23.0</tmx>
+   <tmn>6.0</tmn>
+   <sky>3</sky>
+   <pty>0</pty>
+   <wfKor>구름 많음</wfKor>
+   <wfEn>Mostly Cloudy</wfEn>
+   <pop>20</pop>
+   <r12>0.0</r12>
+   <s12>0.0</s12>
+   <ws>2.6</ws>
+   <wd>5</wd>
+   <wdKor>남서</wdKor>
+   <wdEn>SW</wdEn>
+   <reh>35</reh>
+   <r06>0.0</r06>
+   <s06>0.0</s06>
+  </data>
+  <data seq="17">
+   <hour>21</hour>
+   <day>2</day>
+   <temp>15.0</temp>
+   <tmx>23.0</tmx>
+   <tmn>6.0</tmn>
+   <sky>3</sky>
+   <pty>0</pty>
+   <wfKor>구름 많음</wfKor>
+   <wfEn>Mostly Cloudy</wfEn>
+   <pop>20</pop>
+   <r12>0.0</r12>
+   <s12>0.0</s12>
+   <ws>2.2</ws>
+   <wd>5</wd>
+   <wdKor>남서</wdKor>
+   <wdEn>SW</wdEn>
+   <reh>45</reh>
+   <r06>0.0</r06>
+   <s06>0.0</s06>
+  </data>
+  <data seq="18">
+   <hour>24</hour>
+   <day>2</day>
+   <temp>11.0</temp>
+   <tmx>23.0</tmx>
+   <tmn>6.0</tmn>
+   <sky>3</sky>
+   <pty>0</pty>
+   <wfKor>구름 많음</wfKor>
+   <wfEn>Mostly Cloudy</wfEn>
+   <pop>20</pop>
+   <r12>0.0</r12>
+   <s12>0.0</s12>
+   <ws>1.5</ws>
+   <wd>7</wd>
+   <wdKor>북서</wdKor>
+   <wdEn>NW</wdEn>
+   <reh>75</reh>
    <r06>0.0</r06>
    <s06>0.0</s06>
   </data>
